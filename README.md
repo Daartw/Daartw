@@ -116,7 +116,11 @@ Arquitectura basada en microservicios utilizando **Java, Spring Boot, MySQL y Do
 
 ### 🐳 Aplicación Full Stack Dockerizada
 
-Aplicación con frontend y múltiples servicios backend utilizando **Docker Compose, MySQL y APIs REST**.
+Aplicación con frontend y múltiples servicios backend utilizando **Docker Compose, MySQL y APIs REST**, cada servicio en su propio contenedor y con integración continua en GitHub Actions:
+
+- [Frontend](https://github.com/Daartw/Front_Eval3_Docker) — sitio estático generado en **Java** y servido con **Nginx**.
+- [Servicio de usuarios](https://github.com/Daartw/BackJs_Eval3_Docker) — API REST en **Node.js y Express**.
+- [Servicio de productos](https://github.com/Daartw/BackPy_Eval3_Docker) — API REST en **Python y Flask**.
 
 ### ☁️ Despliegue Cloud
 
